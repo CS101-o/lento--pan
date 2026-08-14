@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <footer>
-      <span>Lentopan® is a registered trademark of LENTOSAN A.Ş.</span>
-      <span>Revision — March 2026</span>
+      <span>Lentopan®, LENTOSAN A.Ş.'nin tescilli markasıdır.</span>
+      <span>Revizyon — Mart 2026</span>
     </footer>
   );
 }

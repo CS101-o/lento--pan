@@ -2,43 +2,43 @@ export default function Applications() {
   return (
     <section id="applications" className="page light-bg">
       <div className="sec-head fade">
-        <span className="ribbon">01 · Applications</span>
-        <h2>Where it goes in.</h2>
-        <p>Precision-engineered panels built for a single job: replace multiple wall build-ups with one part, across every building type.</p>
+        <span className="ribbon">01 · Uygulamalar</span>
+        <h2>Nerelerde kullanılır.</h2>
+        <p>Tek bir iş için hassas mühendislikle tasarlanmış paneller: her yapı tipinde çok katmanlı duvar sistemlerinin yerini tek bir parçayla alır.</p>
       </div>
       <div className="app-grid">
         <div className="app-col fade">
-          <h3>Use cases</h3>
+          <h3>Kullanım alanları</h3>
           <ul>
-            <li>Bathroom pods</li>
-            <li>Prefabricated structures</li>
-            <li>Firewalls</li>
-            <li>Internal partitions</li>
-            <li>Service &amp; riser shafts</li>
-            <li>Smoke shafts</li>
-            <li>Party walls</li>
-            <li>Piling wall cladding</li>
-            <li>Refuse rooms</li>
-            <li>Mechanical rooms</li>
-            <li>Block wall replacement</li>
-            <li>Plasterboard wall replacement</li>
+            <li>Banyo kabinleri</li>
+            <li>Prefabrik yapılar</li>
+            <li>Yangın duvarları</li>
+            <li>İç bölme duvarları</li>
+            <li>Tesisat &amp; şaft duvarları</li>
+            <li>Duman şaftları</li>
+            <li>Ortak/parti duvarları</li>
+            <li>Kazık duvar kaplaması</li>
+            <li>Çöp odaları</li>
+            <li>Mekanik odalar</li>
+            <li>Blok duvar yerine kullanım</li>
+            <li>Alçıpan duvar yerine kullanım</li>
           </ul>
         </div>
         <div className="app-col fade">
-          <h3>Sectors</h3>
+          <h3>Sektörler</h3>
           <ul>
-            <li>Residential developments</li>
-            <li>Residential buildings</li>
-            <li>Commercial buildings</li>
-            <li>Hotels</li>
-            <li>Public sector buildings</li>
-            <li>Hospitals &amp; healthcare</li>
-            <li>Airports</li>
-            <li>Industrial buildings</li>
-            <li>Modular construction</li>
-            <li>Data centres</li>
-            <li>Correctional &amp; custodial facilities</li>
-            <li>Education buildings</li>
+            <li>Konut projeleri</li>
+            <li>Konut binaları</li>
+            <li>Ticari binalar</li>
+            <li>Oteller</li>
+            <li>Kamu binaları</li>
+            <li>Hastaneler &amp; sağlık tesisleri</li>
+            <li>Havalimanları</li>
+            <li>Endüstriyel binalar</li>
+            <li>Modüler yapılar</li>
+            <li>Veri merkezleri</li>
+            <li>Ceza infaz &amp; gözetim tesisleri</li>
+            <li>Eğitim binaları</li>
           </ul>
         </div>
       </div>

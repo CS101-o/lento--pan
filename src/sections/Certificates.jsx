@@ -2,9 +2,9 @@ export default function Certificates() {
   return (
     <section id="certificates" className="page dark-bg grain">
       <div className="sec-head fade">
-        <span className="ribbon">05 · Certificates</span>
-        <h2>Independently tested.</h2>
-        <p>Lentopan® is a registered, protected product, assessed against UK construction and fire-testing frameworks.</p>
+        <span className="ribbon">05 · Sertifikalar</span>
+        <h2>Bağımsız olarak test edildi.</h2>
+        <p>Lentopan®, İngiltere yapı ve yangın test çerçevelerine göre değerlendirilmiş, tescilli ve korunan bir üründür.</p>
       </div>
       <div className="cert-row fade">
         <span className="cert-chip">BBA</span>
@@ -15,7 +15,7 @@ export default function Certificates() {
         <span className="cert-chip">UKCert</span>
       </div>
       <div className="cert-number fade">
-        <span style={{ fontSize: '0.78rem', letterSpacing: '0.1em', color: '#a9a8af' }}>CERTIFICATE No.</span>
+        <span style={{ fontSize: '0.78rem', letterSpacing: '0.1em', color: '#a9a8af' }}>SERTİFİKA No.</span>
         <b>22/6145</b>
       </div>
     </section>

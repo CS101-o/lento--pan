@@ -2,51 +2,51 @@ export default function Description() {
   return (
     <section id="description" className="page light-bg">
       <div className="sec-head fade">
-        <span className="ribbon">03 · Description</span>
-        <h2>Why teams switch to it.</h2>
+        <span className="ribbon">03 · Açıklama</span>
+        <h2>Ekiplerin neden tercih ettiği.</h2>
       </div>
       <div className="app-grid fade">
         <div className="app-col">
-          <h3>The board itself</h3>
+          <h3>Panelin kendisi</h3>
           <ul style={{ border: 'none' }}>
-            <li>All-in-one insulation, acoustic and A1 fire-rated core</li>
-            <li>Vapour-permeable — dries out rather than trapping moisture</li>
-            <li>Doesn't promote mould, even if wet before the building is watertight</li>
-            <li>Suitable for pre-build, Cat A and Cat B fit-outs</li>
-            <li>Standard 60 × 120&nbsp;cm sheet, 3–20&nbsp;cm thickness on request</li>
-            <li>MEP routing pre-formed off-site or cut on-site to suit</li>
+            <li>Hepsi bir arada yalıtım, akustik ve A1 yangın sınıfı çekirdek</li>
+            <li>Buhar geçirgen — nemi hapsetmek yerine kurumasını sağlar</li>
+            <li>Bina su geçirmez hale gelmeden önce ıslansa bile küf oluşumunu desteklemez</li>
+            <li>Ön yapım, Cat A ve Cat B iç mekân uygulamaları için uygundur</li>
+            <li>Standart 60 × 120&nbsp;cm levha, talep üzerine 3–20&nbsp;cm kalınlık</li>
+            <li>Mekanik/elektrik/tesisat geçişleri şantiye öncesi hazırlanabilir veya sahada kesilebilir</li>
           </ul>
         </div>
         <div className="app-col">
-          <h3>Why it's fitted this way</h3>
+          <h3>Neden bu şekilde monte edilir</h3>
           <ul style={{ border: 'none' }}>
-            <li>Joints bonded with a light bead of PU foam, fixed with trapezoidal screws</li>
-            <li>Any direct finish follows — render, plasterboard, fibre-cement</li>
-            <li>Fewer wall build-ups and components to manage on site</li>
-            <li>Fewer site visits, simpler project sequencing</li>
-            <li>Single-material board recycles fully at end of service life</li>
-            <li>A sustainable alternative to brick, aircrete block and similar systems</li>
+            <li>Derzler ince bir PU köpük şeridiyle birleştirilir, trapez vidalarla sabitlenir</li>
+            <li>Ardından doğrudan herhangi bir kaplama uygulanabilir — sıva, alçıpan, fiber çimento</li>
+            <li>Sahada yönetilmesi gereken daha az duvar katmanı ve bileşen</li>
+            <li>Daha az şantiye ziyareti, daha basit proje planlaması</li>
+            <li>Tek malzemeli panel, kullanım ömrü sonunda tamamen geri dönüştürülebilir</li>
+            <li>Tuğla, gazbeton blok ve benzeri sistemlere sürdürülebilir bir alternatif</li>
           </ul>
         </div>
       </div>
       <div className="finish-gallery fade">
-        <h3>Finishes applied directly to the board</h3>
+        <h3>Doğrudan panel üzerine uygulanan yüzey kaplamaları</h3>
         <div className="finish-grid">
           <figure>
-            <img src="/assets/images/finish-render-cladding.jpg" alt="Fibre-mesh render exterior cladding finish on Lentopan wall" loading="lazy" />
-            <figcaption>Fibre-mesh render — exterior cladding</figcaption>
+            <img src="/assets/images/finish-render-cladding.jpg" alt="Lentopan duvarda fiber file sıva dış cephe kaplaması" loading="lazy" />
+            <figcaption>Fiber file sıva — dış cephe kaplaması</figcaption>
           </figure>
           <figure>
-            <img src="/assets/images/finish-render-painted.jpg" alt="Fibre-mesh render finished with paint on Lentopan wall" loading="lazy" />
-            <figcaption>Fibre-mesh render — painted finish</figcaption>
+            <img src="/assets/images/finish-render-painted.jpg" alt="Lentopan duvarda boyalı fiber file sıva kaplaması" loading="lazy" />
+            <figcaption>Fiber file sıva — boyalı kaplama</figcaption>
           </figure>
           <figure>
-            <img src="/assets/images/finish-fibercement-exposed.jpg" alt="Exposed-joint fibre-cement cladding on Lentopan wall in a garage setting" loading="lazy" />
-            <figcaption>Exposed-joint fibre-cement / plasterboard</figcaption>
+            <img src="/assets/images/finish-fibercement-exposed.jpg" alt="Garaj ortamında Lentopan duvarda açık derzli fiber çimento kaplama" loading="lazy" />
+            <figcaption>Açık derzli fiber çimento / alçıpan</figcaption>
           </figure>
           <figure>
-            <img src="/assets/images/finish-tiling.jpg" alt="Ceramic tiling finish on Lentopan wall in a kitchen" loading="lazy" />
-            <figcaption>Ceramic tiling</figcaption>
+            <img src="/assets/images/finish-tiling.jpg" alt="Mutfakta Lentopan duvarda seramik kaplama" loading="lazy" />
+            <figcaption>Seramik kaplama</figcaption>
           </figure>
         </div>
       </div>
