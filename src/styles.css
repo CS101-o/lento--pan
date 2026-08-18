@@ -92,6 +92,11 @@ header.topbar{
   position:fixed; top:0; left:0; right:0; z-index:40;
   display:flex; align-items:center; justify-content:space-between;
   padding:22px 8vw; pointer-events:none;
+  transform:translateY(0);
+  transition:transform .3s ease;
+}
+header.topbar.topbar-hidden{
+  transform:translateY(-130%);
 }
 header.topbar .mark{
   display:flex; align-items:center; gap:10px;
@@ -290,4 +295,5 @@ footer{
   html{scroll-behavior:auto;}
   .fade{transition:none; opacity:1; transform:none;}
   .scroll-cue{animation:none;}
+  header.topbar{transition:none;}
 }
