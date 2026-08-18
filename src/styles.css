@@ -100,7 +100,7 @@ header.topbar .mark{
   text-shadow:0 2px 10px rgba(0,0,0,0.55);
   pointer-events:auto;
 }
-header.topbar .mark svg{width:26px;height:26px;}
+header.topbar .mark img{height:28px; width:auto; display:block; filter:drop-shadow(0 2px 6px rgba(0,0,0,0.5));}
 
 /* ============ HERO ============ */
 .hero-block{position:relative; min-height:100vh; display:flex; flex-direction:column;}
