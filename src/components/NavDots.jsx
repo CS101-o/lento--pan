@@ -18,7 +18,13 @@ export default function NavDots() {
           }
         });
       },
-      { threshold: 0.35 }
+      // Viewport-relative, not element-height-relative: a threshold ratio
+      // requires that fraction of the *section's own height* to be visible,
+      // which breaks for tall sections (e.g. product cards stacked to a
+      // single column on mobile) — content stays hidden well after it's
+      // scrolled into view. rootMargin triggers as soon as a section
+      // crosses into the top 70% of the viewport, regardless of its height.
+      { threshold: 0, rootMargin: '0px 0px -30% 0px' }
     );
     targets.forEach((el) => io.observe(el));
 
